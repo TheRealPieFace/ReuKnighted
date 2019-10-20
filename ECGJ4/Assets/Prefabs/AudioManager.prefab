@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &874020916357563369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874020916357563375}
+  - component: {fileID: 874020916357563368}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Audio
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874020916357563375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874020916357563369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874020916357563368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874020916357563369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ead5178d4887e94080ee28ed677e0cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: eccd9f4c0a05ba74db04ac3dedb2b40e, type: 3}
+    volume: 0.269
+    loop: 1
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Attack1
+    clip: {fileID: 8300000, guid: 54a3a20ffe46ec548ace568209554b2a, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Attack2
+    clip: {fileID: 8300000, guid: 38f5576fb0baedc489bd2c3021bcebce, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Attack3
+    clip: {fileID: 8300000, guid: 83b0c9376a463274691e9a6c10a1fc8a, type: 3}
+    volume: 0.279
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Celebration
+    clip: {fileID: 8300000, guid: cb4a88647fd1f03429dad3a3e3d3b704, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Death
+    clip: {fileID: 8300000, guid: 8fd22416e509466478015d33d5be3de4, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Jump
+    clip: {fileID: 8300000, guid: 5d87114608efd4347a3a03edbf7cfeba, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_NoiseReel
+    clip: {fileID: 8300000, guid: 928bf0f793f65c945a9afa081ca4325c, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Struggle1
+    clip: {fileID: 8300000, guid: d8a1cffe0e4a3fc47bbbe3343786762e, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Bors_Struggle2
+    clip: {fileID: 8300000, guid: 935b10512aa2aea49838e3e753310fad, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Attack1
+    clip: {fileID: 8300000, guid: 24675c76fe9a88949a3043abc815cc0a, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Attack2
+    clip: {fileID: 8300000, guid: 01d9f06a23c117044ae6fcea7e7c02c5, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Attack3
+    clip: {fileID: 8300000, guid: 5d06cbe3626a0f046be8f1bf69d2ce54, type: 3}
+    volume: 0.263
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Celebration
+    clip: {fileID: 8300000, guid: 1bd54df6e2da2de43a51c804a75370e8, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Death
+    clip: {fileID: 8300000, guid: 855876f5816f358468018bc4ffb66fb3, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Jump
+    clip: {fileID: 8300000, guid: 6d92fd510aadaaa48a1469de0fc1a6eb, type: 3}
+    volume: 0.477
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_NoiseReel
+    clip: {fileID: 8300000, guid: 3b080151e1a621a43bd1d1fda7a556a5, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Struggle1
+    clip: {fileID: 8300000, guid: 52e782f9cf8554a43ae1e0ea6a97c79b, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Mousealot_Struggle2
+    clip: {fileID: 8300000, guid: 6b5d14c2ea5fd364796f0cd219582650, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Kinght_AfterSoloPuzzles
+    clip: {fileID: 8300000, guid: 846f5d71a2a8d604a9164edd1f24ecf7, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: KnightBorsIntro
+    clip: {fileID: 8300000, guid: 4d0c2b4038e02b54a8a967070ef7e715, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: KnightMousealotIntro
+    clip: {fileID: 8300000, guid: 7a4e5f7a9dc1d134185ca7b025403bbc, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: f53fc06aa1dc9014d94cf3047bca617e, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: DoorClose
+    clip: {fileID: 8300000, guid: d954dcb2f042b26449da7ee175e978df, type: 3}
+    volume: 1
+    loop: 0
+    mute: 0
+    source: {fileID: 0}
+  - name: Switch
+    clip: {fileID: 8300000, guid: d9a3c39384e7937479afcb601aec8934, type: 3}
+    volume: 0.367
+    loop: 0
+    mute: 0
+    source: {fileID: 0}

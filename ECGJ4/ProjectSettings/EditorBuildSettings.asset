@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Levels/Menu.unity
+    guid: 4a3a8a90dd0cedb43998bff62271c131
+  - enabled: 1
+    path: Assets/_Scenes/Levels/MousealotIntro.unity
+    guid: e21c3eeaf542ade4f88b3ecfc62e1e79
+  - enabled: 1
+    path: Assets/_Scenes/Levels/BorsIntro.unity
+    guid: 44b6b96c68223d64cae5f03b7f4332b0
+  - enabled: 1
+    path: Assets/_Scenes/Levels/Level_01.unity
+    guid: f695610802f321b44be8b8494413adf4
+  - enabled: 1
+    path: Assets/_Scenes/Levels/Level_02.unity
+    guid: 88411c26b65a78c4bab92f7dbafe80e3
+  - enabled: 1
+    path: Assets/_Scenes/Levels/Level_03.unity
+    guid: 110765a51c000a9489645c1380487f02
+  - enabled: 1
+    path: Assets/_Scenes/Levels/WinMenu.unity
+    guid: 6638fe175aa79814bb403fb969598c7c
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 44b90058862faa44891c326f6796d9c7,
+      type: 2}
